@@ -6,9 +6,9 @@ https://lucid.app/lucidchart/4997b6d4-f125-4aeb-8e9e-b4684ca19e0c/edit?invitatio
 
 ## README Structure
 
-Project Title
-Description
-Installation Instructions
-Usage Instructions
-API Endpoints
-UML Class Diagram
+* Project Title
+* Description
+* Installation Instructions
+* Usage Instructions
+* API Endpoints
+* UML Class Diagram

@@ -1,9 +1,6 @@
 # Personal Expense Tracker
 This is a RESTful API for a Personal Expense Tracker application built with Java and Spring Boot. It supports CRUD operations on expenses and user authentication with JWT. There are two types of users: admin with full rights and secondary users with view-only rights.
 
-Final Project for IRONHACK Bootcamp Java Backend 2024
-
-
 # Features
 * Authentication and Authorization
   * Bearer Token Authentication using JWT

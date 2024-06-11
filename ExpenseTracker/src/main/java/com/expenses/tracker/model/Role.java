@@ -1,4 +1,4 @@
-package com.expenses.tracker;
+package com.expenses.tracker.model;
 
 import jakarta.persistence.*;
 import org.springframework.security.core.userdetails.User;

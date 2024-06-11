@@ -1,3 +1,5 @@
+package com.expenses.tracker.model;
+
 import jakarta.persistence.*;
 
 import javax.management.relation.Role;

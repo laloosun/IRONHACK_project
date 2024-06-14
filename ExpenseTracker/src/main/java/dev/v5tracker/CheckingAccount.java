@@ -18,3 +18,8 @@ public class CheckingAccount extends Account {
     public void setOverdraftLimit(double overdraftLimit) {
         this.overdraftLimit = overdraftLimit;
     }
+
+
+    public void setId(Long id) {
+        this.id = id;
+    }

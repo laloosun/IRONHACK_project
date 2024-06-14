@@ -11,3 +11,7 @@ public class CheckingAccount extends Account {
 
     // Getters and Setters
 
+    public double getOverdraftLimit() {
+        return overdraftLimit;
+    }
+

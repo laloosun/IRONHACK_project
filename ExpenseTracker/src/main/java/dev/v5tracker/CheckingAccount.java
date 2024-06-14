@@ -11,3 +11,11 @@ public class CheckingAccount extends Account {
 
     // Getters and Setters
 
+    public double getOverdraftLimit() {
+        return overdraftLimit;
+    }
+
+    public void setOverdraftLimit(double overdraftLimit) {
+        this.overdraftLimit = overdraftLimit;
+    }
+

@@ -15,3 +15,6 @@ public class CheckingAccount extends Account {
         return overdraftLimit;
     }
 
+    public void setOverdraftLimit(double overdraftLimit) {
+        this.overdraftLimit = overdraftLimit;
+    }

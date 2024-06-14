@@ -19,3 +19,6 @@ public class CheckingAccount extends Account {
         this.overdraftLimit = overdraftLimit;
     }
 
+    public void setId(Long id) {
+        this.id = id;
+    }

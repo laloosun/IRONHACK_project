@@ -3,10 +3,11 @@ package dev.v5tracker;
 import jakarta.persistence.Entity;
 
 @Entity
-public class SavingsAccount  extends Account{
+public class SavingsAccount extends Account {
     private double interestRate;
 
     // Getters and Setters
+
 
     public double getInterestRate() {
         return interestRate;

@@ -1,8 +1,9 @@
-package dev.v5tracker;
 
 import jakarta.persistence.*;
 
+// JPA Entity annotation
 @Entity
+// JPA Inheritance Strategy
 @Inheritance(strategy = InheritanceType.JOINED)
 public abstract class Account {
 
@@ -11,6 +12,9 @@ public abstract class Account {
     private Long id;
     private String owner;
     private double balance;
+
+    // Getters and Setters
+
 
     public Long getId() {
         return id;
@@ -35,5 +39,4 @@ public abstract class Account {
     public void setBalance(double balance) {
         this.balance = balance;
     }
-
 }

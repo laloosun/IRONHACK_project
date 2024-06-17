@@ -1,5 +1,6 @@
 package dev.v5tracker;
 
+
 import jakarta.persistence.Entity;
 import jakarta.persistence.Id;
 
@@ -10,6 +11,7 @@ public class CheckingAccount extends Account {
     private Long id;
 
     // Getters and Setters
+
 
     public double getOverdraftLimit() {
         return overdraftLimit;

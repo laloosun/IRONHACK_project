@@ -21,3 +21,12 @@ public class ExpenseTrackerApplication {
     PasswordEncoder passwordEncoder() {
         return PasswordEncoderFactories.createDelegatingPasswordEncoder();
     }
+
+
+    @Bean
+    CommandLineRunner run(UserService userService, RoleService roleService) {
+        return args -> {
+            if (roleService.findAllByName("ROLE_USER").isEmpty()) {
+                roleService.saveRole(new Role("ROLE_USER"));
+            }
+

@@ -30,3 +30,6 @@ public class ExpenseTrackerApplication {
                 roleService.saveRole(new Role("ROLE_USER"));
             }
 
+            if (roleService.findAllByName("ROLE_ADMIN").isEmpty()) {
+                roleService.saveRole(new Role("ROLE_ADMIN"));
+            }

@@ -56,6 +56,9 @@ public class User {
         this.name = name;
     }
 
+    public String getUsername() {
+        return username;
+    }
 
 
 

@@ -64,6 +64,11 @@ public String setUsername() {
     return username
 
     }
+
+    public String getPassword() {
+        return password;
+    }
+
 }
 
 

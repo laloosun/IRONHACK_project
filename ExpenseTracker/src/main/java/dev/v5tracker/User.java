@@ -75,6 +75,10 @@ public String setUsername() {
     }
 
 
+    public Collection<Role> getRoles() {
+        return roles;
+    }
+
 }
 
 

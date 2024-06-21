@@ -60,6 +60,10 @@ public class User {
         return username;
     }
 
+public String setUsername() {
+    return username
 
+    }
+}
 
 

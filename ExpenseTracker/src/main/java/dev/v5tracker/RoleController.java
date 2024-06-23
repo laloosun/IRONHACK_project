@@ -21,4 +21,11 @@ public class RoleController {
         roleService.addRoleToUser(form.getUsername(), form.getRoleName());
         return ResponseEntity.ok().build();
     }
+
+
+    @Data
+    class RoleToUserForm {
+        private String username;
+        private String roleName;
+    }
 }

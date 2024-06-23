@@ -10,3 +10,8 @@ import org.springframework.web.bind.annotation.*;
 @RequiredArgsConstructor
 public class RoleController {
     private final RoleService roleService;
+
+    @PostMapping
+    public ResponseEntity<Role> saveRole(@RequestBody Role role) {
+        return ResponseEntity.ok().body(roleService.saveRole(role));
+    }

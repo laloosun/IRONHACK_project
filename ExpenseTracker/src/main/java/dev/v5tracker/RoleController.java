@@ -15,3 +15,10 @@ public class RoleController {
     public ResponseEntity<Role> saveRole(@RequestBody Role role) {
         return ResponseEntity.ok().body(roleService.saveRole(role));
     }
+
+    @PostMapping("/add-to-user")
+    public ResponseEntity<?> addRoleToUser(@RequestBody RoleToUserForm form) {
+        roleService.addRoleToUser(form.getUsername(), form.getRoleName());
+        return ResponseEntity.ok().build();
+    }
+}

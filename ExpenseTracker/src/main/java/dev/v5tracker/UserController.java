@@ -16,3 +16,10 @@ public class UserController {
     public ResponseEntity<List<User>> getUsers() {
         return ResponseEntity.ok().body(userService.getUsers());
     }
+
+
+    @PostMapping
+    public ResponseEntity<User> saveUser(@RequestBody User user) {
+        return ResponseEntity.ok().body(userService.saveUser(user));
+    }
+}

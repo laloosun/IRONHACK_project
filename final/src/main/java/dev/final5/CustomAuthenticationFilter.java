@@ -34,3 +34,15 @@ public class CustomAuthenticationFilter extends UsernamePasswordAuthenticationFi
         this.authenticationManager = authenticationManager;
         this.jwtSecret = jwtSecret;
     }
+
+
+    @Override
+    public Authentication attemptAuthentication(HttpServletRequest request, HttpServletResponse response) throws AuthenticationException {
+        try {
+            ObjectMapper mapper = new ObjectMapper();
+            LoginRequest loginRequest = mapper.readValue(request.getInputStream(), LoginRequest.class);
+
+            UsernamePasswordAuthenticationToken authenticationToken = new UsernamePasswordAuthenticationToken(
+                    loginRequest.getUsername(),
+                    loginRequest.getPassword()
+            );

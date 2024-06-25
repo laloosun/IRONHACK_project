@@ -46,3 +46,12 @@ public class CustomAuthenticationFilter extends UsernamePasswordAuthenticationFi
                     loginRequest.getUsername(),
                     loginRequest.getPassword()
             );
+
+
+            return authenticationManager.authenticate(authenticationToken);
+        } catch (IOException e) {
+            throw new RuntimeException(e);
+        }
+    }
+
+

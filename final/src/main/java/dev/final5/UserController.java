@@ -11,3 +11,13 @@ import java.util.List;
 @RequiredArgsConstructor
 public class UserController {
     private final UserService userService;
+
+    @GetMapping
+    public ResponseEntity<List<User>> getUsers() {
+        return ResponseEntity.ok().body(userService.getUsers());
+    }
+
+    @GetMapping("/{id}")
+    public ResponseEntity<User> getUser(@PathVariable Long id) {
+        return ResponseEntity.ok().body(userService.getUserById(id));
+    }

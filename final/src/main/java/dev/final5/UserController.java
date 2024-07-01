@@ -21,3 +21,15 @@ public class UserController {
     public ResponseEntity<User> getUser(@PathVariable Long id) {
         return ResponseEntity.ok().body(userService.getUserById(id));
     }
+
+
+    @PostMapping
+    public ResponseEntity<User> saveUser(@RequestBody User user) {
+        return ResponseEntity.ok().body(userService.saveUser(user));
+    }
+
+    @PutMapping("/{id}")
+    public ResponseEntity<User> updateUser(@PathVariable Long id, @RequestBody User user) {
+        return ResponseEntity.ok().body(userService.updateUser(id, user));
+    }
+

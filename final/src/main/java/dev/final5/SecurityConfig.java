@@ -62,3 +62,11 @@ public class SecurityConfig {
                 .requestMatchers(POST, "/api/roles/add-to-user").hasAnyAuthority("ROLE_ADMIN")
                 .anyRequest().authenticated()
         );
+
+
+        http.addFilter(customAuthenticationFilter);
+        http.addFilterBefore(new CustomAuthorizationFilter(), UsernamePasswordAuthenticationFilter.class);
+
+        return http.build();
+    }
+}

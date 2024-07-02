@@ -51,3 +51,14 @@ public class SecurityConfig {
         http.sessionManagement(sessionManagement ->
                 sessionManagement.sessionCreationPolicy(STATELESS)
         );
+
+
+        http.authorizeHttpRequests(authorize -> authorize
+                .requestMatchers("/api/login/**").permitAll()
+                .requestMatchers("/api/public/**").permitAll()  // Public endpoint
+                .requestMatchers(GET, "/api/users").hasAnyAuthority("ROLE_USER", "ROLE_ADMIN")
+                .requestMatchers(POST, "/api/users").hasAnyAuthority("ROLE_ADMIN")
+                .requestMatchers(POST, "/api/roles").hasAnyAuthority("ROLE_ADMIN")
+                .requestMatchers(POST, "/api/roles/add-to-user").hasAnyAuthority("ROLE_ADMIN")
+                .anyRequest().authenticated()
+        );

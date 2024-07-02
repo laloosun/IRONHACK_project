@@ -39,3 +39,15 @@ public class SecurityConfig {
     public AuthenticationManager authenticationManager(AuthenticationConfiguration authenticationConfiguration) throws Exception {
         return authenticationConfiguration.getAuthenticationManager();
     }
+
+
+    @Bean
+    protected SecurityFilterChain filterChain(HttpSecurity http) throws Exception {
+        CustomAuthenticationFilter customAuthenticationFilter = new CustomAuthenticationFilter(authManagerBuilder.getOrBuild(), jwtSecret);
+        customAuthenticationFilter.setFilterProcessesUrl("/api/login");
+
+        http.csrf().disable();
+
+        http.sessionManagement(sessionManagement ->
+                sessionManagement.sessionCreationPolicy(STATELESS)
+        );

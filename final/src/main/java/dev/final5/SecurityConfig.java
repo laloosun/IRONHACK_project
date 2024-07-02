@@ -27,9 +27,15 @@ public class SecurityConfig {
 
     private final UserDetailsService userDetailsService;
     private final AuthenticationManagerBuilder authManagerBuilder;
-    private final String jwtSecret = "your_jwt_secret"; // Define your JWT secret here
+    private final String jwtSecret = "your_jwt_secret";
 
     @Bean
     public PasswordEncoder encoder() {
         return PasswordEncoderFactories.createDelegatingPasswordEncoder();
+    }
+
+
+    @Bean
+    public AuthenticationManager authenticationManager(AuthenticationConfiguration authenticationConfiguration) throws Exception {
+        return authenticationConfiguration.getAuthenticationManager();
     }

@@ -23,3 +23,13 @@ import static org.springframework.security.config.http.SessionCreationPolicy.STA
 @EnableWebSecurity
 @RequiredArgsConstructor
 public class SecurityConfig {
+
+
+    private final UserDetailsService userDetailsService;
+    private final AuthenticationManagerBuilder authManagerBuilder;
+    private final String jwtSecret = "your_jwt_secret"; // Define your JWT secret here
+
+    @Bean
+    public PasswordEncoder encoder() {
+        return PasswordEncoderFactories.createDelegatingPasswordEncoder();
+    }

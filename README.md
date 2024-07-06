@@ -21,7 +21,7 @@ with [Lucid app](https://lucid.app/lucidchart/4997b6d4-f125-4aeb-8e9e-b4684ca19e
 
 # DEMO url
 
-[prezi DEMO presentatin](https://prezi.com/view/bXWuU442LVVUtxOQecD6/)
+[prezi DEMO presentation](https://prezi.com/view/bXWuU442LVVUtxOQecD6/)
 
 ## README Structure
 

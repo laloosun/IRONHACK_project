@@ -5,25 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f1ba2602-1812-4cac-9568-2617cc3ffc71" name="Changes" comment="uploaded diagrams current">
-      <change beforePath="$PROJECT_DIR$/ExpenseTracker/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/final/src/main/java/com/ironhack/demosecurityjwt/CustomAuthenticationFilter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/final/src/main/java/com/ironhack/demosecurityjwt/CustomAuthorizationFilter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/final/src/main/java/com/ironhack/demosecurityjwt/controllers/impl/AccountController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/final/src/main/java/com/ironhack/demosecurityjwt/controllers/interfaces/AccountControllerInterface.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/final/src/main/java/com/ironhack/demosecurityjwt/dtos/LoginRequest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/final/src/main/java/com/ironhack/demosecurityjwt/dtos/RoleToUserDTO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/final/src/main/java/dev/final5/CustomerUserDetailsService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/final/src/main/java/dev/final5/ExpenseTrackerApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/final/src/main/java/dev/final5/LoginRequest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/final/src/main/java/dev/final5/Role.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/final/src/main/java/dev/final5/RoleController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/final/src/main/java/dev/final5/RoleRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/final/src/main/java/dev/final5/RoleService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/final/src/main/java/dev/final5/SecurityConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/final/src/main/java/dev/final5/User.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/final/src/main/java/dev/final5/UserController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/final/src/main/java/dev/final5/UserRepository.java" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/final/src/main/java/dev/expensetracker/controllers/impl/DashboardController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/final/src/main/java/dev/expensetracker/security/WebConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,46 +36,54 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
-    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
-    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
-    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;Spring Boot.Application.executor&quot;: &quot;Run&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;openjdk-22&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/lalus/OneDrive/Documentos/WORK/learnJAVA/FINAL PROJECT VERSIONS/v13tracker/final/src/main/java/dev/expensetracker/services/impl&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "JUnit.All in final.executor": "Coverage",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "Spring Boot.Application.executor": "Run",
+    "git-widget-placeholder": "main",
+    "jdk.selected.JAVA_MODULE": "openjdk-22",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/lalus/OneDrive/Documentos/WORK/learnJAVA/FINAL PROJECT VERSIONS/v21refactored - Copy",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.lookFeel",
+    "vue.rearranger.settings.migration": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;DatabaseDriversLRU&quot;: [
-      &quot;mysql&quot;
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
     ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="dev.expensetracker.exceptions" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\lalus\OneDrive\Documentos\WORK\learnJAVA\FINAL PROJECT VERSIONS\v13tracker\final" />
       <recent name="C:\Users\lalus\OneDrive\Documentos\WORK\learnJAVA\FINAL PROJECT VERSIONS\v13tracker\final\src\main\java\dev\expensetracker\services\impl" />
       <recent name="C:\Users\lalus\OneDrive\Documentos\WORK\learnJAVA\FINAL PROJECT VERSIONS\v13tracker\final\src\main\java\dev\expensetracker\services\interfaces" />
       <recent name="C:\Users\lalus\OneDrive\Documentos\WORK\learnJAVA\FINAL PROJECT VERSIONS\v13tracker" />
       <recent name="C:\Users\lalus\OneDrive\Documentos\WORK\learnJAVA\FINAL PROJECT VERSIONS\v13tracker\final\src\main\java\com\ironhack\demosecurityjwt" />
-      <recent name="C:\Users\lalus\OneDrive\Documentos\WORK\learnJAVA\FINAL PROJECT VERSIONS\v13tracker\final\src\main\java\com\ironhack\demosecurityjwt\controller\impl" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\lalus\OneDrive\Documentos\WORK\learnJAVA\FINAL PROJECT VERSIONS\v13tracker" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="dev.expensetracker.security" />
+      <recent name="dev.expensetracker.controllers.impl" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.All in final">
+  <component name="RunManager" selected="Spring Boot.Application">
     <configuration name="All in final" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="final" />
       <option name="PACKAGE_NAME" value="" />
@@ -149,6 +142,7 @@
       <workItem from="1720208788941" duration="1663000" />
       <workItem from="1720256673214" duration="5015000" />
       <workItem from="1720262979724" duration="3507000" />
+      <workItem from="1720268251747" duration="4468000" />
     </task>
     <task id="LOCAL-00001" summary="role controller">
       <option name="closed" value="true" />
@@ -491,5 +485,8 @@
     <MESSAGE value="corrected the PREZI typo" />
     <MESSAGE value="uploaded diagrams current" />
     <option name="LAST_COMMIT_MESSAGE" value="uploaded diagrams current" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/v13tracker$All_in_final.ic" NAME="All in final Coverage Results" MODIFIED="1720268378322" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true" />
   </component>
 </project>

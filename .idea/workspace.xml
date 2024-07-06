@@ -5,30 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f1ba2602-1812-4cac-9568-2617cc3ffc71" name="Changes" comment="Dashboardwebconfig">
-      <change afterPath="$PROJECT_DIR$/final/src/main/resources/v13works_Collection 22.postman_collection.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/final/frontendREACT/App.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/final/frontendREACT/App.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/final/frontendREACT/App.test.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/final/frontendREACT/components/AccountManagement.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/final/frontendREACT/components/Dashboard.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/final/frontendREACT/components/Login.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/final/frontendREACT/components/PrivateRoute.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/final/frontendREACT/components/UserManagement.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/final/frontendREACT/index.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/final/frontendREACT/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/final/frontendREACT/logo.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/final/frontendREACT/project_structure.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/final/frontendREACT/reportWebVitals.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/final/frontendREACT/services/accountService.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/final/frontendREACT/services/api.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/final/frontendREACT/services/authService.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/final/frontendREACT/services/userService.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/final/frontendREACT/setupTests.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/final/src/main/resources/PostmanCollectionAPI.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/final/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/final/src/main/java/dev/expensetracker/controllers/impl/AccountController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/final/src/main/java/dev/expensetracker/controllers/interfaces/AccountControllerInterface.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/final/src/main/java/dev/expensetracker/models/Role.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/final/src/main/java/dev/expensetracker/models/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/final/src/main/java/dev/expensetracker/repositories/RoleRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/final/src/main/java/dev/expensetracker/repositories/UserRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/final/src/main/java/dev/expensetracker/security/SecurityConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/final/src/main/java/dev/expensetracker/security/filters/CustomAuthenticationFilter.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,14 +45,14 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ASKED_ADD_EXTERNAL_FILES": "true",
-    "JUnit.All in final.executor": "Run",
+    "JUnit.All in final.executor": "Coverage",
     "RequestMappingsPanelOrder0": "0",
     "RequestMappingsPanelOrder1": "1",
     "RequestMappingsPanelWidth0": "75",
     "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "Spring Boot.Application.executor": "Run",
-    "git-widget-placeholder": "main",
+    "git-widget-placeholder": "Merging main",
     "jdk.selected.JAVA_MODULE": "openjdk-22",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/lalus/OneDrive/Documentos/WORK/learnJAVA/FINAL PROJECT VERSIONS/v13tracker/REACTfrontend",
@@ -164,7 +150,7 @@
       <workItem from="1720208788941" duration="1663000" />
       <workItem from="1720256673214" duration="5015000" />
       <workItem from="1720262979724" duration="3507000" />
-      <workItem from="1720268251747" duration="8401000" />
+      <workItem from="1720268251747" duration="9388000" />
     </task>
     <task id="LOCAL-00001" summary="role controller">
       <option name="closed" value="true" />
@@ -517,6 +503,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="Dashboardwebconfig" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/v13tracker$All_in_final.ic" NAME="All in final Coverage Results" MODIFIED="1720274892772" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true" />
+    <SUITE FILE_PATH="coverage/v13tracker$All_in_final.ic" NAME="All in final Coverage Results" MODIFIED="1720279384570" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true" />
   </component>
 </project>

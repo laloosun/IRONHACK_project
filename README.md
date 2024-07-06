@@ -39,6 +39,9 @@ Updated UML classes and trees are in the project folder at the same level as the
 
 ## RUN REACT FRONTEND
 
+The first page of the REACH frontend for this project is here:
+https://github.com/laloosun/ReactFrontEndLogin_IRONHACK_bootcamp.git
+
 Run `npm install`.
 
 Start the React development server by running `npm start`

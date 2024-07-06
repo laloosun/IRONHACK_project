@@ -1,0 +1,495 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="f1ba2602-1812-4cac-9568-2617cc3ffc71" name="Changes" comment="uploaded diagrams current">
+      <change beforePath="$PROJECT_DIR$/ExpenseTracker/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/final/src/main/java/com/ironhack/demosecurityjwt/CustomAuthenticationFilter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/final/src/main/java/com/ironhack/demosecurityjwt/CustomAuthorizationFilter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/final/src/main/java/com/ironhack/demosecurityjwt/controllers/impl/AccountController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/final/src/main/java/com/ironhack/demosecurityjwt/controllers/interfaces/AccountControllerInterface.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/final/src/main/java/com/ironhack/demosecurityjwt/dtos/LoginRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/final/src/main/java/com/ironhack/demosecurityjwt/dtos/RoleToUserDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/final/src/main/java/dev/final5/CustomerUserDetailsService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/final/src/main/java/dev/final5/ExpenseTrackerApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/final/src/main/java/dev/final5/LoginRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/final/src/main/java/dev/final5/Role.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/final/src/main/java/dev/final5/RoleController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/final/src/main/java/dev/final5/RoleRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/final/src/main/java/dev/final5/RoleService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/final/src/main/java/dev/final5/SecurityConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/final/src/main/java/dev/final5/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/final/src/main/java/dev/final5/UserController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/final/src/main/java/dev/final5/UserRepository.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
+  <component name="ProjectId" id="2iJscTc33G94BMOoNTv4Lxqf9cV" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;Spring Boot.Application.executor&quot;: &quot;Run&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;openjdk-22&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/lalus/OneDrive/Documentos/WORK/learnJAVA/FINAL PROJECT VERSIONS/v13tracker/final/src/main/java/dev/expensetracker/services/impl&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;
+    ]
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="dev.expensetracker.exceptions" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\lalus\OneDrive\Documentos\WORK\learnJAVA\FINAL PROJECT VERSIONS\v13tracker\final\src\main\java\dev\expensetracker\services\impl" />
+      <recent name="C:\Users\lalus\OneDrive\Documentos\WORK\learnJAVA\FINAL PROJECT VERSIONS\v13tracker\final\src\main\java\dev\expensetracker\services\interfaces" />
+      <recent name="C:\Users\lalus\OneDrive\Documentos\WORK\learnJAVA\FINAL PROJECT VERSIONS\v13tracker" />
+      <recent name="C:\Users\lalus\OneDrive\Documentos\WORK\learnJAVA\FINAL PROJECT VERSIONS\v13tracker\final\src\main\java\com\ironhack\demosecurityjwt" />
+      <recent name="C:\Users\lalus\OneDrive\Documentos\WORK\learnJAVA\FINAL PROJECT VERSIONS\v13tracker\final\src\main\java\com\ironhack\demosecurityjwt\controller\impl" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.All in final">
+    <configuration name="All in final" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="final" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="final" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="dev.expensetracker.Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FinalApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <module name="final" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="dev.final5.FinalApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.All in final" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9f38398b9061-18abd8497189-intellij.indexing.shared.core-IU-241.14494.240" />
+        <option value="bundled-js-predefined-1d06a55b98c1-74d2a5396914-JavaScript-IU-241.14494.240" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f1ba2602-1812-4cac-9568-2617cc3ffc71" name="Changes" comment="" />
+      <created>1719220093964</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1719220093964</updated>
+      <workItem from="1719220095113" duration="1303000" />
+      <workItem from="1719300879621" duration="1478000" />
+      <workItem from="1719303293359" duration="32000" />
+      <workItem from="1719398139707" duration="51000" />
+      <workItem from="1719398233124" duration="1383000" />
+      <workItem from="1719473211002" duration="488000" />
+      <workItem from="1719480446793" duration="40000" />
+      <workItem from="1719672729953" duration="496000" />
+      <workItem from="1719842337465" duration="401000" />
+      <workItem from="1719919363152" duration="672000" />
+      <workItem from="1720208788941" duration="1663000" />
+      <workItem from="1720256673214" duration="5015000" />
+      <workItem from="1720262979724" duration="3507000" />
+    </task>
+    <task id="LOCAL-00001" summary="role controller">
+      <option name="closed" value="true" />
+      <created>1719220304283</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1719220304283</updated>
+    </task>
+    <task id="LOCAL-00002" summary="userCTRL">
+      <option name="closed" value="true" />
+      <created>1719220460386</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1719220460386</updated>
+    </task>
+    <task id="LOCAL-00003" summary="roleServiceJ">
+      <option name="closed" value="true" />
+      <created>1719220681904</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1719220681904</updated>
+    </task>
+    <task id="LOCAL-00004" summary="CustomAuth1">
+      <option name="closed" value="true" />
+      <created>1719302511525</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1719302511525</updated>
+    </task>
+    <task id="LOCAL-00005" summary="CustomAuth2">
+      <option name="closed" value="true" />
+      <created>1719302573520</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1719302573520</updated>
+    </task>
+    <task id="LOCAL-00006" summary="CustomAuth3">
+      <option name="closed" value="true" />
+      <created>1719302625435</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1719302625435</updated>
+    </task>
+    <task id="LOCAL-00007" summary="CustomAuth4">
+      <option name="closed" value="true" />
+      <created>1719302856193</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1719302856193</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Authorization1">
+      <option name="closed" value="true" />
+      <created>1719302959550</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1719302959550</updated>
+    </task>
+    <task id="LOCAL-00009" summary="30 minutes expiration">
+      <option name="closed" value="true" />
+      <created>1719399072922</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1719399072923</updated>
+    </task>
+    <task id="LOCAL-00010" summary="MAIN">
+      <option name="closed" value="true" />
+      <created>1719399201982</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1719399201982</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Login Request">
+      <option name="closed" value="true" />
+      <created>1719399295024</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1719399295024</updated>
+    </task>
+    <task id="LOCAL-00012" summary="role">
+      <option name="closed" value="true" />
+      <created>1719399379441</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1719399379441</updated>
+    </task>
+    <task id="LOCAL-00013" summary="User">
+      <option name="closed" value="true" />
+      <created>1719399606302</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1719399606302</updated>
+    </task>
+    <task id="LOCAL-00014" summary="CustUserdet">
+      <option name="closed" value="true" />
+      <created>1719473380072</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1719473380072</updated>
+    </task>
+    <task id="LOCAL-00015" summary="CustUserdet2">
+      <option name="closed" value="true" />
+      <created>1719473440530</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1719473440530</updated>
+    </task>
+    <task id="LOCAL-00016" summary="CustUserdet3">
+      <option name="closed" value="true" />
+      <created>1719473504861</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1719473504861</updated>
+    </task>
+    <task id="LOCAL-00017" summary="CustUserdet4">
+      <option name="closed" value="true" />
+      <created>1719473569615</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1719473569615</updated>
+    </task>
+    <task id="LOCAL-00018" summary="CustUserdet5">
+      <option name="closed" value="true" />
+      <created>1719473630908</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1719473630908</updated>
+    </task>
+    <task id="LOCAL-00019" summary="CustUserdet5">
+      <option name="closed" value="true" />
+      <created>1719672805846</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1719672805847</updated>
+    </task>
+    <task id="LOCAL-00020" summary="RoleRep">
+      <option name="closed" value="true" />
+      <created>1719673116296</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1719673116297</updated>
+    </task>
+    <task id="LOCAL-00021" summary="RoleServ">
+      <option name="closed" value="true" />
+      <created>1719673224972</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1719673224972</updated>
+    </task>
+    <task id="LOCAL-00022" summary="UserRepo1">
+      <option name="closed" value="true" />
+      <created>1719842451496</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1719842451496</updated>
+    </task>
+    <task id="LOCAL-00023" summary="Userctrl1">
+      <option name="closed" value="true" />
+      <created>1719842561623</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1719842561623</updated>
+    </task>
+    <task id="LOCAL-00024" summary="Userctrl2">
+      <option name="closed" value="true" />
+      <created>1719842649166</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1719842649166</updated>
+    </task>
+    <task id="LOCAL-00025" summary="Userctrl3">
+      <option name="closed" value="true" />
+      <created>1719842707802</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1719842707802</updated>
+    </task>
+    <task id="LOCAL-00026" summary="secuconfig1">
+      <option name="closed" value="true" />
+      <created>1719919629115</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1719919629115</updated>
+    </task>
+    <task id="LOCAL-00027" summary="secuconfig2">
+      <option name="closed" value="true" />
+      <created>1719919705393</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1719919705393</updated>
+    </task>
+    <task id="LOCAL-00028" summary="secuconfig3">
+      <option name="closed" value="true" />
+      <created>1719919793178</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1719919793178</updated>
+    </task>
+    <task id="LOCAL-00029" summary="secuconfig4">
+      <option name="closed" value="true" />
+      <created>1719919876420</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1719919876420</updated>
+    </task>
+    <task id="LOCAL-00030" summary="secuconfig5">
+      <option name="closed" value="true" />
+      <created>1719919926843</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1719919926843</updated>
+    </task>
+    <task id="LOCAL-00031" summary="secuconfig6">
+      <option name="closed" value="true" />
+      <created>1719919988104</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1719919988104</updated>
+    </task>
+    <task id="LOCAL-00032" summary="AccountControllerUPdate">
+      <option name="closed" value="true" />
+      <created>1720208957951</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1720208957951</updated>
+    </task>
+    <task id="LOCAL-00033" summary="CustomFilterUpdate">
+      <option name="closed" value="true" />
+      <created>1720209007110</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1720209007110</updated>
+    </task>
+    <task id="LOCAL-00034" summary="DTOs">
+      <option name="closed" value="true" />
+      <created>1720209115931</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1720209115931</updated>
+    </task>
+    <task id="LOCAL-00035" summary="Added the PREZI URL">
+      <option name="closed" value="true" />
+      <created>1720256765823</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1720256765823</updated>
+    </task>
+    <task id="LOCAL-00036" summary="corrected the PREZI typo">
+      <option name="closed" value="true" />
+      <created>1720256948867</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1720256948869</updated>
+    </task>
+    <task id="LOCAL-00037" summary="uploaded diagrams current">
+      <option name="closed" value="true" />
+      <created>1720258958640</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1720258958640</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="role" />
+    <MESSAGE value="User" />
+    <MESSAGE value="CustUserdet" />
+    <MESSAGE value="CustUserdet2" />
+    <MESSAGE value="CustUserdet3" />
+    <MESSAGE value="CustUserdet4" />
+    <MESSAGE value="CustUserdet5" />
+    <MESSAGE value="RoleRep" />
+    <MESSAGE value="RoleServ" />
+    <MESSAGE value="UserRepo1" />
+    <MESSAGE value="Userctrl1" />
+    <MESSAGE value="Userctrl2" />
+    <MESSAGE value="Userctrl3" />
+    <MESSAGE value="secuconfig1" />
+    <MESSAGE value="secuconfig2" />
+    <MESSAGE value="secuconfig3" />
+    <MESSAGE value="secuconfig4" />
+    <MESSAGE value="secuconfig5" />
+    <MESSAGE value="secuconfig6" />
+    <MESSAGE value="AccountControllerUPdate" />
+    <MESSAGE value="CustomFilterUpdate" />
+    <MESSAGE value="DTOs" />
+    <MESSAGE value="Added the PREZI URL" />
+    <MESSAGE value="corrected the PREZI typo" />
+    <MESSAGE value="uploaded diagrams current" />
+    <option name="LAST_COMMIT_MESSAGE" value="uploaded diagrams current" />
+  </component>
+</project>

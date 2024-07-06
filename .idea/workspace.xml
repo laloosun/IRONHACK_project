@@ -4,11 +4,29 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f1ba2602-1812-4cac-9568-2617cc3ffc71" name="Changes" comment="uploaded diagrams current">
-      <change afterPath="$PROJECT_DIR$/final/src/main/java/dev/expensetracker/controllers/impl/DashboardController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/final/src/main/java/dev/expensetracker/security/WebConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+    <list default="true" id="f1ba2602-1812-4cac-9568-2617cc3ffc71" name="Changes" comment="Dashboardwebconfig">
+      <change afterPath="$PROJECT_DIR$/final/frontendREACT/App.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/final/frontendREACT/App.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/final/frontendREACT/App.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/final/frontendREACT/components/AccountManagement.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/final/frontendREACT/components/Dashboard.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/final/frontendREACT/components/Login.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/final/frontendREACT/components/PrivateRoute.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/final/frontendREACT/components/UserManagement.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/final/frontendREACT/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/final/frontendREACT/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/final/frontendREACT/logo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/final/frontendREACT/project_structure.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/final/frontendREACT/reportWebVitals.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/final/frontendREACT/services/accountService.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/final/frontendREACT/services/api.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/final/frontendREACT/services/authService.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/final/frontendREACT/services/userService.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/final/frontendREACT/setupTests.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/final/project_structure.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/final/src/main/resources/PostmanCollectionAPI.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,13 +67,13 @@
     "git-widget-placeholder": "main",
     "jdk.selected.JAVA_MODULE": "openjdk-22",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/lalus/OneDrive/Documentos/WORK/learnJAVA/FINAL PROJECT VERSIONS/v21refactored - Copy",
+    "last_opened_file_path": "C:/Users/lalus/OneDrive/Documentos/WORK/learnJAVA/FINAL PROJECT VERSIONS/v13tracker/final/frontendREACT",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.lookFeel",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
     "vue.rearranger.settings.migration": "true"
   },
   "keyToStringList": {
@@ -69,11 +87,11 @@
       <recent name="dev.expensetracker.exceptions" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\lalus\OneDrive\Documentos\WORK\learnJAVA\FINAL PROJECT VERSIONS\v13tracker\final\frontendREACT" />
       <recent name="C:\Users\lalus\OneDrive\Documentos\WORK\learnJAVA\FINAL PROJECT VERSIONS\v13tracker\final" />
       <recent name="C:\Users\lalus\OneDrive\Documentos\WORK\learnJAVA\FINAL PROJECT VERSIONS\v13tracker\final\src\main\java\dev\expensetracker\services\impl" />
       <recent name="C:\Users\lalus\OneDrive\Documentos\WORK\learnJAVA\FINAL PROJECT VERSIONS\v13tracker\final\src\main\java\dev\expensetracker\services\interfaces" />
       <recent name="C:\Users\lalus\OneDrive\Documentos\WORK\learnJAVA\FINAL PROJECT VERSIONS\v13tracker" />
-      <recent name="C:\Users\lalus\OneDrive\Documentos\WORK\learnJAVA\FINAL PROJECT VERSIONS\v13tracker\final\src\main\java\com\ironhack\demosecurityjwt" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\lalus\OneDrive\Documentos\WORK\learnJAVA\FINAL PROJECT VERSIONS\v13tracker" />
@@ -83,7 +101,7 @@
       <recent name="dev.expensetracker.controllers.impl" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.Application">
+  <component name="RunManager" selected="JUnit.All in final">
     <configuration name="All in final" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="final" />
       <option name="PACKAGE_NAME" value="" />
@@ -142,7 +160,7 @@
       <workItem from="1720208788941" duration="1663000" />
       <workItem from="1720256673214" duration="5015000" />
       <workItem from="1720262979724" duration="3507000" />
-      <workItem from="1720268251747" duration="4468000" />
+      <workItem from="1720268251747" duration="6681000" />
     </task>
     <task id="LOCAL-00001" summary="role controller">
       <option name="closed" value="true" />
@@ -440,7 +458,15 @@
       <option name="project" value="LOCAL" />
       <updated>1720258958640</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="Dashboardwebconfig">
+      <option name="closed" value="true" />
+      <created>1720274721783</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1720274721783</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -459,7 +485,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="role" />
     <MESSAGE value="User" />
     <MESSAGE value="CustUserdet" />
     <MESSAGE value="CustUserdet2" />
@@ -484,9 +509,10 @@
     <MESSAGE value="Added the PREZI URL" />
     <MESSAGE value="corrected the PREZI typo" />
     <MESSAGE value="uploaded diagrams current" />
-    <option name="LAST_COMMIT_MESSAGE" value="uploaded diagrams current" />
+    <MESSAGE value="Dashboardwebconfig" />
+    <option name="LAST_COMMIT_MESSAGE" value="Dashboardwebconfig" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/v13tracker$All_in_final.ic" NAME="All in final Coverage Results" MODIFIED="1720268378322" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true" />
+    <SUITE FILE_PATH="coverage/v13tracker$All_in_final.ic" NAME="All in final Coverage Results" MODIFIED="1720274892772" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true" />
   </component>
 </project>

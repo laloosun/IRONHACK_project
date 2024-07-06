@@ -5,28 +5,30 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f1ba2602-1812-4cac-9568-2617cc3ffc71" name="Changes" comment="Dashboardwebconfig">
-      <change afterPath="$PROJECT_DIR$/final/frontendREACT/App.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/final/frontendREACT/App.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/final/frontendREACT/App.test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/final/frontendREACT/components/AccountManagement.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/final/frontendREACT/components/Dashboard.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/final/frontendREACT/components/Login.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/final/frontendREACT/components/PrivateRoute.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/final/frontendREACT/components/UserManagement.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/final/frontendREACT/index.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/final/frontendREACT/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/final/frontendREACT/logo.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/final/frontendREACT/project_structure.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/final/frontendREACT/reportWebVitals.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/final/frontendREACT/services/accountService.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/final/frontendREACT/services/api.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/final/frontendREACT/services/authService.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/final/frontendREACT/services/userService.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/final/frontendREACT/setupTests.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/final/project_structure.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/final/src/main/resources/PostmanCollectionAPI.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/final/src/main/resources/v13works_Collection 22.postman_collection.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/final/frontendREACT/App.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/final/frontendREACT/App.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/final/frontendREACT/App.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/final/frontendREACT/components/AccountManagement.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/final/frontendREACT/components/Dashboard.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/final/frontendREACT/components/Login.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/final/frontendREACT/components/PrivateRoute.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/final/frontendREACT/components/UserManagement.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/final/frontendREACT/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/final/frontendREACT/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/final/frontendREACT/logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/final/frontendREACT/project_structure.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/final/frontendREACT/reportWebVitals.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/final/frontendREACT/services/accountService.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/final/frontendREACT/services/api.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/final/frontendREACT/services/authService.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/final/frontendREACT/services/userService.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/final/frontendREACT/setupTests.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/final/src/main/resources/PostmanCollectionAPI.json" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,7 +59,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ASKED_ADD_EXTERNAL_FILES": "true",
-    "JUnit.All in final.executor": "Coverage",
+    "JUnit.All in final.executor": "Run",
     "RequestMappingsPanelOrder0": "0",
     "RequestMappingsPanelOrder1": "1",
     "RequestMappingsPanelWidth0": "75",
@@ -67,7 +69,7 @@
     "git-widget-placeholder": "main",
     "jdk.selected.JAVA_MODULE": "openjdk-22",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/lalus/OneDrive/Documentos/WORK/learnJAVA/FINAL PROJECT VERSIONS/v13tracker/final/frontendREACT",
+    "last_opened_file_path": "C:/Users/lalus/OneDrive/Documentos/WORK/learnJAVA/FINAL PROJECT VERSIONS/v13tracker/REACTfrontend",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -87,21 +89,23 @@
       <recent name="dev.expensetracker.exceptions" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\lalus\OneDrive\Documentos\WORK\learnJAVA\FINAL PROJECT VERSIONS\v13tracker\REACTfrontend" />
       <recent name="C:\Users\lalus\OneDrive\Documentos\WORK\learnJAVA\FINAL PROJECT VERSIONS\v13tracker\final\frontendREACT" />
       <recent name="C:\Users\lalus\OneDrive\Documentos\WORK\learnJAVA\FINAL PROJECT VERSIONS\v13tracker\final" />
       <recent name="C:\Users\lalus\OneDrive\Documentos\WORK\learnJAVA\FINAL PROJECT VERSIONS\v13tracker\final\src\main\java\dev\expensetracker\services\impl" />
       <recent name="C:\Users\lalus\OneDrive\Documentos\WORK\learnJAVA\FINAL PROJECT VERSIONS\v13tracker\final\src\main\java\dev\expensetracker\services\interfaces" />
-      <recent name="C:\Users\lalus\OneDrive\Documentos\WORK\learnJAVA\FINAL PROJECT VERSIONS\v13tracker" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\lalus\OneDrive\Documentos\WORK\learnJAVA\FINAL PROJECT VERSIONS\v13tracker" />
+      <recent name="C:\Users\lalus\OneDrive\Documentos\WORK\learnJAVA\FINAL PROJECT VERSIONS\v13tracker\final" />
+      <recent name="C:\Users\lalus\OneDrive\Documentos\WORK\learnJAVA\FINAL PROJECT VERSIONS\v13tracker\REACT_frontend" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="dev.expensetracker.security" />
       <recent name="dev.expensetracker.controllers.impl" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.All in final">
+  <component name="RunManager" selected="Spring Boot.Application">
     <configuration name="All in final" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="final" />
       <option name="PACKAGE_NAME" value="" />
@@ -160,7 +164,7 @@
       <workItem from="1720208788941" duration="1663000" />
       <workItem from="1720256673214" duration="5015000" />
       <workItem from="1720262979724" duration="3507000" />
-      <workItem from="1720268251747" duration="6681000" />
+      <workItem from="1720268251747" duration="8401000" />
     </task>
     <task id="LOCAL-00001" summary="role controller">
       <option name="closed" value="true" />

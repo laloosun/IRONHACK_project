@@ -10,9 +10,10 @@ This is a RESTful API for a Personal Expense Tracker application built with Java
   * User Management
 * Role-based access control with specific permissions for different roles
 
-# Endpoints Authentication: ...
+# Endpoints Authentication:
 
-This API provides endpoints to manage users, roles, and accounts in an expense tracking application. It uses token-based authentication and follows role-based access control.
+This API provides endpoints to manage users, roles, and accounts in an expense tracking application. 
+It uses token-based authentication and follows role-based access control.
 PUT / PATCH / DELETE operations are reserved only for ADMIN roles.
 
 # Project Management
@@ -38,6 +39,12 @@ Updated UML classes and trees are in the project folder at the same level as the
 
 ## RUN REACT FRONTEND
 
-Start the React development server by running npm start.
+Run `npm install`.
+
+Start the React development server by running `npm start`
+
+The REACT frontend is just proof of concept.
+It should allow user login, but only has first page for now...
+// TODO add pages...
 
 

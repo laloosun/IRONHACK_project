@@ -1,29 +1,29 @@
 # Personal Expense Tracker
-This is a RESTful API for a Personal Expense Tracker application built with Java and Spring Boot. It supports CRUD operations on expenses and user authentication with JWT. There are two types of users: admin with full rights and secondary users with view-only rights.
+This is a RESTful API for a Personal Expense Tracker application built with Java and Spring Boot. It provides HTTP endpoints that support expense management, user authentication with JWT, and role-based access control.
 
 # Features
 * Authentication and Authorization
   * Bearer Token Authentication using JWT
   * Role-based access control (Admin and Secondary User)
 * Expense Management
-  * CRUD operations on expenses
+* HTTP endpoints for managing expenses (GET, POST, PUT, DELETE)
   * User Management
 * Role-based access control with specific permissions for different roles
 
-# Endpoints Authentication:
+# API Endpoints
 
-This API provides endpoints to manage users, roles, and accounts in an expense tracking application. 
-It uses token-based authentication and follows role-based access control.
-PUT / PATCH / DELETE operations are reserved only for ADMIN roles.
+This API provides HTTP endpoints to manage users, roles, and accounts in an expense tracking application. It uses token-based authentication and follows role-based access control.
+
+- GET operations are available for all authenticated users
+- POST, PUT, and DELETE operations are reserved only for ADMIN roles
 
 # Project Management
 with [Trello](https://trello.com/b/7UEVtP7K/ironhack-final-project)
 
 # UML class
 
-Initial UML class diagram before building application:
-with [UML class diagram with Lucid app](https://lucid.app/lucidchart/4997b6d4-f125-4aeb-8e9e-b4684ca19e0c/edit?invitationId=inv_968bdb5c-7366-4d34-9504-787e16fb16e0)
-Updated UML classes and trees are in the project folder at the same level as the ReadMe.md.
+•Initial UML class diagram created before building application (using Lucid app) [UML class diagram with Lucid app](https://lucid.app/lucidchart/4997b6d4-f125-4aeb-8e9e-b4684ca19e0c/edit?invitationId=inv_968bdb5c-7366-4d34-9504-787e16fb16e0)
+* Updated UML classes and trees are in the project folder at the same level as the ReadMe.md.
 
 # DEMO url
 
@@ -31,11 +31,17 @@ Updated UML classes and trees are in the project folder at the same level as the
 
 ## Project Concept
 
-* Personal Expense Tracker Application
-* helps users keep track of their expenses
-* included checking and savings accounts
-* access is password protected
-* roles can be wither ADMIN (full CRUD) or USER (only GET, PUT)
+Personal Expense Tracker Application:
+ - Helps users keep track of their expenses
+ - Includes checking and savings accounts
+ - Access is password protected
+- Roles can be either ADMIN (full access) or USER (read-only access)
+
+# Data Operations
+- CREATE: Add new expenses or accounts
+- READ: View existing expenses and account information
+- UPDATE: Modify expense details or account information (ADMIN only)
+- DELETE: Remove expenses or accounts (ADMIN only)
 
 ## RUN REACT FRONTEND
 
